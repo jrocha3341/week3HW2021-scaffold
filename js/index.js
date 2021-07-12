@@ -31,7 +31,6 @@ function shuffle(array) {
   return array;
 }
 
-
 function startGame() {
   // Invoke shuffle function and store in variable
   const shuffledDeck = shuffle(deckCards);
@@ -128,8 +127,6 @@ function adjustStarRating() {
   }
 }
 
-
-
 function compareTwo() {
   
   console.log(opened[0].src); //shows <img src="./img/Nerd-Rage.png" alt="image of vault boy from fallout">
@@ -155,7 +152,6 @@ function compareTwo() {
 	}   
   
 }
-
 
 function displayMatchingCards() {
   /* Access the two cards in opened array and add
@@ -227,8 +223,6 @@ function addStatsToModal() {
   p[2].innerHTML = "Update this with the star rating";
 }
 
-
-
 function displayModal() {
 // use getElementByID to grab the id="close" element and assign it to a variable called modalClose
 const modalClose = document.getElementsByClassName("close"); //make a modal in html?
@@ -266,12 +260,9 @@ function checkIsGameFinished() {
     // TODO: invoke the addStatsToModal
     addStatsToModal();
     
-    
     // display modal
     // TODO: invoke the displayModal function
     displayModal();
-    
-    
   }
 }
 
