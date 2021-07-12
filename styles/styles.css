@@ -15,7 +15,7 @@ html {
 
 body {
     /* Background pattern from Subtle Patterns */
-    /*background: url('img/ignasi_pattern_s.png');*/
+    /*background: url('../img/ignasi_pattern_s.png');*/
     font-family: "Open Sans", sans-serif;
     /*one Em roughly ten pixels (16 x 62.5% = 10)*/
     font-size: 62.5%;
